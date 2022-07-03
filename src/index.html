@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en-GB">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+
+        <link rel="stylesheet" href="assets/css/cookies.css"/>
+        <link rel="stylesheet" href="assets/css/global.css"/>
+		<link rel="stylesheet" href="assets/css/navbar.css"/>
+        <link rel="stylesheet" href="assets/css/slider.css"/>
+
+        <script src="assets/js/cookies.js" type="module"></script>
+		<script src="assets/js/page.js" type="module"></script> 
+        <script src="assets/js/slider.js"></script>
+
+		<title>WΔRP | Home</title>
+	</head>
+
+	<body>
+        <div class="cookie-consent-banner" id="cookie-consent-banner">
+            <div class="cookie-consent-banner__inner">
+                <div class="cookie-consent-banner__copy">
+                    <div class="cookie-consent-banner__header">&#127850; WE USE COOKIES</div>
+                        <div class="cookie-consent-banner__description">We use analytic cookies to track visits to our website. You can enable / disable them here.</div>
+                    </div>
+          
+                <div class="cookie-consent-banner__actions">
+                    <button class="cookie-consent-banner__cta" id="cookies-accept">
+                        Accept all
+                    </button>
+                    <button class="cookie-consent-banner-decline__cta" id="cookies-decline">
+                        Only functional
+                    </button>
+               </div>
+            </div>
+        </div>
+
+		<nav>
+            <img src="assets/img/logo.png" height="50px"><p id="logo" style="font-size: 30px; text-align: center"><b>WΔRP</b></p>
+            <ul>
+                <li>
+                    <a href="">
+                        <p style="color: blue;"><u>Home</u></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/about us"><p>About Us</p></a>
+                </li>
+            </ul>
+        </nav>
+
+        <br>
+
+        <div class="slideshow-container">
+			<div class="slider fade" style="display: block;">
+				<div class="numbertext">1 / 3</div>
+				<img src="assets/img/slider/1.png" style="width:100%">
+				<div class="text">Test Render 1</div>
+			</div>
+
+            <div class="slider fade">
+				<div class="numbertext">2 / 3</div>
+				<img src="assets/img/slider/2.png" style="width:100%">
+				<div class="text">Test Render 2</div>
+			</div>
+
+            <div class="slider fade">
+				<div class="numbertext">3 / 3</div>
+				<img src="assets/img/slider/3.png" style="width:100%">
+				<div class="text">Test Render 3</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+
+		<br>
+        
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+
+        <br>
+
+        <div class="center-text">
+            Welcome text or something goes here.
+        </div>
+	</body>
+</html>
